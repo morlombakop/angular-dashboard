@@ -7,6 +7,5 @@ import { FinancialReportComponent } from './financial-report.component';
   imports: [SharedModule],
   declarations: [FinancialReportComponent],
   exports: [FinancialReportComponent],
-  providers: [],
 })
 export class FinancialReportModule {}

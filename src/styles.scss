@@ -1,4 +1,9 @@
+$mdi-font-path: '~@mdi/font/fonts';
+
+@import '~@mdi/font/scss/materialdesignicons.scss';
+
 body {
   padding: 0;
   margin: 0;
+  background-color: #e5e5e5;
 }

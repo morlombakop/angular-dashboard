@@ -7,6 +7,5 @@ import { ReportDetailsComponent } from './report-details.component';
   imports: [SharedModule],
   declarations: [ReportDetailsComponent],
   exports: [ReportDetailsComponent],
-  providers: [],
 })
 export class ReportDetailsModule {}

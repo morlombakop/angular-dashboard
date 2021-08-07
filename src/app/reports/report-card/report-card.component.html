@@ -1,0 +1,14 @@
+<mat-card class="report-card">
+  <mat-card-header>
+    <div mat-card-avatar>
+      <mat-icon class="mdi {{report.icon}}" color="accent"></mat-icon>
+    </div>
+    <mat-card-title>{{report.title}}</mat-card-title>
+  </mat-card-header>
+  <mat-card-content>
+    <p>{{report.description}}</p>
+  </mat-card-content>
+  <mat-card-actions>
+    <button (click)="showMore()" mat-raised-button color="accent">Show more</button>
+  </mat-card-actions>
+</mat-card>

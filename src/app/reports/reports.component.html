@@ -1,0 +1,7 @@
+<div class=reports>
+  <div fxLayout="row wrap" fxLayoutGap="16px grid">
+    <div fxFlex="25%" fxFlex.lg="33.333%" fxFlex.md="50%" fxFlex.xs="100%" fxFlex.sm="100%" *ngFor="let report of reports">
+      <app-report-card [report]="report"></app-report-card>
+    </div>
+  </div>
+</div>
